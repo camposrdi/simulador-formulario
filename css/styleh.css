@@ -1,0 +1,67 @@
+h1{
+
+    color: rgb(28, 8, 209);
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    
+}
+
+table{
+
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-size: 15px;
+    border-color: black;
+    align-content: center;
+
+}
+
+.registroFrm{
+
+    display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+}
+
+.form {
+    background-color: white;
+    width: 400px;
+    border-radius: 8px;
+    padding: 20px 40px;
+    box-shadow: 0 10px 25px rgba(92, 99, 105, .2);
+}
+
+.title {
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+
+.inputContainer {
+    position: relative;
+    height: 45px;
+    width: 80%;
+    margin-bottom: -20px;
+
+}
+
+form label {
+    width: 130px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+h2{
+    font-size: 30px;
+    width: 100%;
+    background-color: green;
+    color: white;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: auto;
+    margin: auto;
+    
+}

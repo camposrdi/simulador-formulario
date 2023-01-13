@@ -1,0 +1,73 @@
+<html>
+
+    <head>
+
+        <title> Registro Nuevo Producto </title>
+    <link href="css/styleh.css" rel="stylesheet">
+
+    </head>
+
+    <body>
+         
+        <div class="registroFrm"> 
+           <form action="" class="form">
+        <h1 class="title"> Registro de Producto </h1>
+
+        <form action="exito.html" method="post">
+        
+
+                        <div class="inputContainer">
+                            <label for="" class="label"> Codigo </label>
+                            <input type="text" class="input">
+                        </div>
+
+            
+            <div class="inputContainer">
+                <label for="" class="label"> Descripción </label>
+                <input type="text" class="input">
+                </div>
+            
+            <div class="inputContainer">
+                <label for="" class="label"> Código de barra </label>
+                <input type="text" class="input">
+            </div>
+
+            <div class="inputContainer">
+                <label for="" class="label"> Precio unitario </label>
+                <input type="text" class="input">
+            </div>
+
+            <div class="inputContainer">
+                <label for="" class="label"> Stock </label>
+                <input type="text" class="input">
+            </div>
+
+            <div class="inputContainer">
+                <label for="" class="label"> Proveedor </label>
+                <input type="text" class="input">
+            </div>
+
+            <div class="inputContainer">Estado: 
+            <input type="checkbox" id="Activo" /><label for="Activo"> Activo </label>
+        </div>
+
+            <div class="inputContainer"> Categoria: 
+            <select id="Categoria">
+                <option value="0"> Jardineria </option>
+                <option value="1"> Fontaneria </option>
+                <option value="2"> Carpinteria </option>
+                <option value="3"> Herramientas </option>
+            </select>
+            </div>
+        
+
+            
+            <br><input type="button" id="bGuardar" value="Guardar" onclick="javascript:window.location.href='exito.html'" />
+        
+            <input type="button" id="Cancelar" value="Cancelar" onclick="javascript:window.location.href='index.html'"  />
+
+            </form>
+            </div>
+    </body>
+
+</html>
