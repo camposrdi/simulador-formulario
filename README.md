@@ -1,4 +1,4 @@
-# homework2
+#Maquetado de formulario
 
 Update de la segunda tarea dentro del bootcamp de Front-End Web Developer Jr. Actividad:
 -Maquetar mediante HTML y CSS los componentes de un formulario para el registro de 
